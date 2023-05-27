@@ -1,6 +1,13 @@
 
 
-//    document.getElementById("main").addEventListener("submit",ship)
+function succes() {
+
+  window.location.href = "success.html";
+  console.log("yes")
+}
+
+
+document.getElementById("back1").addEventListener("click", succes)
 
 function ship() {
 

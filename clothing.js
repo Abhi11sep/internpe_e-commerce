@@ -56,17 +56,7 @@ let Products=[
       "price": 155.99,
       "strike_off": 468.00
     },
-    {
-      "id": "49",
-      "Category": "cloth",
-      "gender":"Kid",
-      "type":"Dress",
-      "title": "BUSY BEES DIANA BUTTON FRONT SUNDRESS",
-      "description": ["Manufacturer: JS Collections","Closure: Hidden Back Zipper","Material: 100% Polyester","Approximately 45In From Shoulder To Hem"],
-      "image": "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1511236566_RLLZ_1_360x.jpg?v=1661224639",
-      "price": 79.99,
-      "strike_off": 109.00
-    },
+
     {
       "id": "50",
       "Category": "cloth",
@@ -78,17 +68,7 @@ let Products=[
       "price": 179.99,
       "strike_off": 199.00
     },
-    {
-      "id": "3",
-      "Category": "cloth",
-      "gender":"Women",
-      "type":"Dress",
-      "title": "VIOLET WOMENS METALLIC PLEATED EVENING DRESS",
-      "description": ["Manufacturer: BCBGMAXAZRIA","Closure: Hidden Back Zipper","Material: 100% Polyester"],
-      "image": "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/xPGzJ9v1zb9XhIKiLVHKBakUftQLRmNd-25_360x.jpg?v=1660839609",
-      "price": 165.99,
-      "strike_off": 448.00
-    },
+ 
     {
       "id": "16",
       "Category": "cloth",
@@ -112,17 +92,7 @@ let Products=[
       "price": 763.99,
       "strike_off": 906.00
     },
-    {
-      "id": "4",
-      "Category": "cloth",
-      "gender":"Women",
-      "type":"Dress",
-      "title": "THEORY PEPLUM JACKET",
-      "description": ["About The Brand: Expertly Tailored. Effortless Style.","Peplum Jacket In Black With Textured Design, Zippered Cuffs And Peplum Hem","Model Is 5'9 And Is Wearing A Size 4. Measurements May Vary Slightly By Size."],
-      "image": "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/xPGzJ9v1zb9XhIKiLVHKBakUftQLRmNd-25_360x.jpg?v=1660839609",
-      "price": 165.99,
-      "strike_off": 448.00
-    },
+ 
     {
       "id": "5",
       "Category": "cloth",
@@ -145,28 +115,7 @@ let Products=[
       "price": 59.99,
       "strike_off": 99.00
     },
-    {
-      "id": "48",
-      "Category": "cloth",
-      "gender":"Kid",
-      "type":"Dress",
-      "title": "IMOGA MESH DRESS",
-      "description": ["Manufacturer: JS Collections","Closure: Hidden Back Zipper","Material: 100% Polyester","Approximately 45In From Shoulder To Hem"],
-      "image": "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1511116425_RLLZ_1_360x.jpg?v=1660481024",
-      "price": 59.99,
-      "strike_off": 99.00
-    },
-    {
-      "id": "10",
-      "Category": "cloth",
-      "gender":"Men",
-      "type":"T-shirt",
-      "title": "MENS COTTON CREWNECK T-SHIRT",
-      "description": ["Manufacturer: JS Collections","Closure: Hidden Back Zipper","Material: 100% Polyester","Approximately 45In From Shoulder To Hem"],
-      "image": "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/jSibiqPaBJXVvCpTwUMT1royLERAN39y-25_360x.jpg?v=1661076146",
-      "price": 29.99,
-      "strike_off": 89.00
-    },
+
     {
       "id": "11",
       "Category": "cloth",
@@ -200,28 +149,7 @@ let Products=[
       "price": 98.99,
       "strike_off": 159.00
     }, 
-    {
-      "id": "6",
-      "Category": "cloth",
-      "gender":"Women",
-      "title": "GRACIA BELTED SHIRTDRESS",
-      "type":"Dress",
-      "description": ["Manufacturer: JS Collections","Closure: Hidden Back Zipper","Material: 100% Polyester","Approximately 45In From Shoulder To Hem"],
-      "image": "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411331318_RLLZ_1_1d955553-1abf-4117-a588-af0b94d20385_360x.jpg?v=1660848419",
-      "price": 56.99,
-      "strike_off": 149.00
-    },
-    {
-      "id": "7",
-      "Category": "cloth",
-      "gender":"Women",
-      "type":"Dress",
-      "title": "NATALIA WOMENS V-NECK PLEATED EVENING DRESS",
-      "description": ["Manufacturer: JS Collections","Closure: Hidden Back Zipper","Material: 100% Polyester","Approximately 45In From Shoulder To Hem"],
-      "image": "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1t3LuEwerD0NPeHjt5oHkSETD0BXQR8T-25_large.jpg?v=1661528430",
-      "price": 140.99,
-      "strike_off": 349.00
-    },
+
     {
       "id": "14",
       "Category": "cloth",
@@ -277,17 +205,7 @@ let Products=[
       "price": 132.99,
       "strike_off": 249.00
     },
-    {
-      "id": "9",
-      "Category": "cloth",
-      "gender":"Women",
-      "type":"Dress",
-      "title": "STELLAH MINI DRESS",
-      "description": ["Manufacturer: JS Collections","Closure: Hidden Back Zipper","Material: 100% Polyester","Approximately 45In From Shoulder To Hem"],
-      "image": "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411273866_RLLZ_1_360x.jpg?v=1661179332",
-      "price": 79.99,
-      "strike_off": 253.00
-    },
+
     
     {
       "id": "12",
@@ -344,17 +262,7 @@ let Products=[
       "price": 102.99,
       "strike_off": 395.00
     },
-    {
-      "id": "51",
-      "Category": "cloth",
-      "gender":"Men",
-      "type":"T-shirt",
-      "title": "GUESS RED COTTON LOGO PRINT MEN CASUAL TOP PERFORATED T-SHIRT",
-      "description": ["Manufacturer: JS Collections","Closure: Hidden Back Zipper","Material: 100% Polyester","Approximately 45In From Shoulder To Hem"],
-      "image": "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/IMG_4276-scaled_2d65b617-ce97-4a9f-9d05-84f502936a3b_360x.jpg?v=1657584997",
-      "price": 72.99,
-      "strike_off": 105.00
-    },
+
     {
       "id": "52",
       "Category": "cloth",
@@ -454,39 +362,9 @@ let Products=[
       "price": 47.99,
       "strike_off": 85.00
     },
-    {
-      "id": "61",
-      "Category": "cloth",
-      "gender":"Men",
-      "type":"Pant",
-      "title": "MENS MID-RISE FIT 3 CLASSIC JEANS",
-      "description": ["Manufacturer: JS Collections","Closure: Hidden Back Zipper","Material: 100% Polyester","Approximately 45In From Shoulder To Hem"],
-      "image": "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/6tEUmTHd28ruIO8IvIDfGPytS0kCi9AL-25_360x.jpg?v=1661136807",
-      "price": 67.99,
-      "strike_off": 85.00
-    },
-    {
-      "id": "62",
-      "Category": "cloth",
-      "gender":"Men",
-      "type":"Pant",
-      "title": "G-STAR HIGA STRETCH DENIM 3D COBLER PROCESSED TOBOG 3D RELAXED TAPERED JEAN",
-      "description": ["Manufacturer: JS Collections","Closure: Hidden Back Zipper","Material: 100% Polyester","Approximately 45In From Shoulder To Hem"],
-      "image": "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1010899990_RLLZ_1_f484b5da-1f33-45ff-a7e9-d191887c97f3_360x.jpg?v=1661366272",
-      "price": 87.99,
-      "strike_off": 105.00
-    },
-    {
-      "id": "63",
-      "Category": "cloth",
-      "gender":"Men",
-      "type":"Pant",
-      "title": "FIT 3 MENS MID-RISE STRETCH CLASSIC JEANS",
-      "description": ["Manufacturer: JS Collections","Closure: Hidden Back Zipper","Material: 100% Polyester","Approximately 45In From Shoulder To Hem"],
-      "image": "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/Kd6DeWA6ehC7raulUp48jUBuoA3dAQqP-25_c309473d-23c9-4fce-bcdc-2dc1a4f5d1aa_360x.jpg?v=1661153455",
-      "price": 67.99,
-      "strike_off": 95.00
-    },
+
+  
+
     {
       "id": "64",
       "Category": "cloth",
@@ -509,17 +387,7 @@ let Products=[
       "price": 79.99,
       "strike_off": 95.00
     },
-    {
-      "id": "66",
-      "Category": "cloth",
-      "gender":"Men",
-      "type":"Pant",
-      "title": "JOE'S JEANS THE CLASSIC DIXUS STRAIGHT JEAN",
-      "description": ["Manufacturer: JS Collections","Closure: Hidden Back Zipper","Material: 100% Polyester","Approximately 45In From Shoulder To Hem"],
-      "image": "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/GChOQSGxh7M8puLWqQ23ct0LfPOJVAg1-25_c6dce0bc-c4fb-40b6-8f6a-03edb0e64545_large.jpg?v=1661523354",
-      "price": 99.99,
-      "strike_off": 135.00
-    },
+ 
     {
       "id": "67",
       "Category": "cloth",
@@ -531,17 +399,7 @@ let Products=[
       "price": 79.99,
       "strike_off": 95.00
     },
-    {
-      "id": "68",
-      "Category": "cloth",
-      "gender":"Men",
-      "type":"Pant",
-      "title": "FIT 3 MENS MID-RISE STRETCH CLASSIC JEANS",
-      "description": ["Manufacturer: JS Collections","Closure: Hidden Back Zipper","Material: 100% Polyester","Approximately 45In From Shoulder To Hem"],
-      "image": "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/Kd6DeWA6ehC7raulUp48jUBuoA3dAQqP-25_c309473d-23c9-4fce-bcdc-2dc1a4f5d1aa_360x.jpg?v=1661153455",
-      "price": 69.99,
-      "strike_off": 95.00
-    },
+    
     {
       "id": "68",
       "Category": "cloth",
@@ -841,26 +699,8 @@ let Products=[
       "price": 892.99,
       "strike_off": 1099.00
     },
-    {
-      "id": "41",
-      "Category": "cloth",
-      "gender":"Kid",
-      "title": "LA FAUTE A VOLTAIRE ALIZEE DRESS",
-      "description": ["Manufacturer: JS Collections","Closure: Hidden Back Zipper","Material: 100% Polyester","Approximately 45In From Shoulder To Hem"],
-      "image": "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1511252836_RLLZ_1_23f01f52-805b-45dc-bf62-49b2a5e52fb2_360x.jpg?v=1661168744",
-      "price": 65.99,
-      "strike_off": 95.00
-    },
-    {
-      "id": "42",
-      "Category": "cloth",
-      "gender":"Kid",
-      "title": "NELLYSTELLA PEACH SILK-BLEND DRESS",
-      "description": ["Manufacturer: JS Collections","Closure: Hidden Back Zipper","Material: 100% Polyester","Approximately 45In From Shoulder To Hem"],
-      "image": "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1543133694_RLLZ_1_260ea824-d386-4972-95b3-ec56f52ba730_360x.jpg?v=1659584945",
-      "price": 74.99,
-      "strike_off": 85.00
-    },
+ 
+
   ]
 let head_line=document.getElementById('head_line');
  function main(){

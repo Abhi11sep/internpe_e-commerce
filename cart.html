@@ -34,13 +34,13 @@
 
     #container {
         font-family: 'Kumbh Sans', sans-serif;
-        width: 98%;
+        width: 80%;
         margin: auto;
         display: grid;
         grid-template-rows: auto;
         grid-template-columns: 1fr 8fr 5fr;
         gap: 20px;
-        margin-top: 25px;
+        margin-top: 45px;
     }
 
 
@@ -82,12 +82,18 @@
     }
 
     #like {
-        width: 98%;
+        width: 80%;
+        
         margin: 80px auto;
         display: grid;
         grid-template-rows: auto;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 50px;
+    }
+    #like div{
+        border-radius: 15px;
+        padding: 15px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
     }
 
     #like button {
@@ -129,13 +135,18 @@
 
 
     #recent {
-        width: 98%;
+        width: 80%;
         margin: 80px auto;
         display: grid;
         grid-template-rows: auto;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 50px;
         font-family: 'Kumbh Sans', sans-serif;
+    }
+    #recent div{
+        border-radius: 15px;
+        padding: 15px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
     }
 
     #recent img {
@@ -644,16 +655,7 @@
             "price": 59.99,
             "strike_off": 99.00
         },
-        {
-            "id": "21",
-            "Category": "shoes",
-            "gender": "Others",
-            "title": "BLACK SNEAKER",
-            "description": ["Men's Sneakers", "Black Leather Heel", "White Rubber Midsole", "Comes With Dust Bags"],
-            "image": "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/2232557_1800x1800.jpg?v=1649100955",
-            "price": 352.99,
-            "strike_off": 795.00
-        },
+
         {
             "id": "24",
             "Category": "shoes",
@@ -696,16 +698,7 @@
             "price": 74.99,
             "strike_off": 85.00
         },
-        {
-            "id": "18",
-            "Category": "cloth",
-            "gender": "Men",
-            "title": "IMPERIAL MEN'S SHIRT IN BLACK",
-            "description": ["Manufacturer: JS Collections", "Closure: Hidden Back Zipper", "Material: 100% Polyester", "Approximately 45In From Shoulder To Hem"],
-            "image": "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/f23ac401-e185-4bfe-86df-56c97c5ae7fb_360x.jpg?v=1628206355",
-            "price": 150.99,
-            "strike_off": 389.00
-        },
+
         {
             "id": "29",
             "Category": "shoes",
@@ -767,9 +760,6 @@
             let title = document.createElement("h1");
             title.innerText = el.title;
 
-            // let price = document.createElement("h2");
-            // price.innerText ="$"+ el.price;
-
             let statement = document.createElement("h4");
             statement.innerText = "FREE SHIPPING ON ORDERS OVER $99";
 
@@ -789,7 +779,6 @@
 
             p.appendChild(strikeprice);
             p.appendChild(price);
-            // $(p).appendChild($(" "));
             p.appendChild(percentage);
 
 
@@ -815,10 +804,8 @@
             cartbtn.innerText = "ADD TO CART";
             cartbtn.addEventListener("click", function () {
                 addtocart(el);
-                // showcart();
                 popcart();
-                // displayRadioValue();
-                // displayRadioValueclr();
+            
             });
 
 
@@ -846,29 +833,6 @@
     display3();
     display4();
 
-    // function displayRadioValue() {
-    //     var ele = document.getElementsByName('size');
-
-    //     for (i = 0; i < ele.length; i++) {
-    //         if (ele[i].checked) {
-    //             localStorage.setItem('size', JSON.stringify(ele[i].value));
-    //         }
-
-    //     }
-
-    // }
-
-    // function displayRadioValueclr() {
-    //     var ele = document.getElementsByName('color');
-
-    //     for (i = 0; i < ele.length; i++) {
-    //         if (ele[i].checked) {
-    //             localStorage.setItem('color', JSON.stringify(ele[i].value));
-    //         }
-
-    //     }
-
-    // }
 
     function addtocart(el) {
         let size = JSON.parse(localStorage.getItem('size')) || [];
@@ -886,7 +850,7 @@
             el.size = size;
             cartLS.push(el);
             localStorage.setItem('cart', JSON.stringify(cartLS));
-            // showcart(cart);
+            
         }
 
     }
@@ -1022,7 +986,6 @@
     function popback() {
         document.getElementById("shoppingmain").style.display = "none";
 
-        // showcart();
     }
 
 
@@ -1033,8 +996,6 @@
 
     function showcart() {
         let cartLS = JSON.parse(localStorage.getItem('cart'));
-        // let size = JSON.parse(localStorage.getItem('size')) || [];
-        // let color = JSON.parse(localStorage.getItem('color')) || [];
         shoppingcart.innerHTML = null;
 
 
@@ -1166,42 +1127,6 @@
         showcart();
     }
 
-
-    let slide = document.getElementById('slide');
-    let headline = ['Welcome To Bluefly:Luxury Brands At Discounted Prices', 'Free Shiping on Order Over $99'];
-    let count = 0;
-    let h3 = document.createElement('h3')
-    h3.setAttribute("id", "slide_text")
-    setInterval(() => {
-        if (count == headline.length) {
-            count = 0;
-        }
-        h3.innerText = headline[count];
-        slide.append(h3);
-        count++;
-    }, 9000);
-
-
-
-
-
-
-    // function add() {
-    //     let adding = [
-    //         {
-    //             "id": "42",
-    //             "Category": "cloth",
-    //             "gender": "Kid",
-    //             "title": "NELLYSTELLA PEACH SILK-BLEND DRESS",
-    //             "description": ["Manufacturer: JS Collections", "Closure: Hidden Back Zipper", "Material: 100% Polyester", "Approximately 45In From Shoulder To Hem"],
-    //             "image": "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1543133694_RLLZ_1_260ea824-d386-4972-95b3-ec56f52ba730_360x.jpg?v=1659584945",
-    //             "price": 74.99,
-    //             "strike_off": 85.00
-    //         },
-    //     ]
-
-    //     localStorage.setItem('add', JSON.stringify(adding));
-    // }
 
     let cart_payment = document.getElementById("cart_payment");
     cart_payment.addEventListener("click", function () {

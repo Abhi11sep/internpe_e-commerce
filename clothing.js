@@ -1,16 +1,4 @@
-let slide=document.getElementById('slide');
-let headline=['Welcome To Bluefly:Luxury Brands At Discounted Prices','Free Shiping on Order Over $99'];
-let count=0;
-let h3=document.createElement('h3')
-h3.setAttribute("id","slide_text")
-setInterval(() => {
-   if(count==headline.length){
-    count=0;
-   }
-h3.innerText=headline[count];
-slide.append(h3);
-count++;
-}, 9000);
+
 let Products=[
     {
       "id": "1",

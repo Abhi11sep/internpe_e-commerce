@@ -1,8 +1,8 @@
-function navbar(){
+function navbar() {
     return `<div id="navbar">
         <div id="nav1">
                 
-              <a href="./home.html">  <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?v=1574278243" alt=""></a>
+              <a href="./home.html">  <img src="https://i1.lmsin.net/website_images/in/logos/logo-lifestyle.svg" alt=""  width="150px"></a>
     
         </div> 
             <div id="search">
@@ -26,29 +26,26 @@ function navbar(){
         <li id="clear" ><a href="#"></a>BEAUTY</li>
       </ul>  
 
-      <ul>
-        <li id="clear" style="color:red;margin-top:20px;margin-bottom: 30px">CLEARANCE</li>
-      </ul>
     </div>`
 }
 
-function footer(){
+function footer() {
     return `<div id="footer">
     <div id="shop">
         <div id="denim">
-            <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/denim_720x.jpg" alt="" width="430px" height="330px">
+            <img src="https://www.thefashionisto.com/wp-content/uploads/2016/10/River-Island-2016-Fall-Winter-Denim-Campaign-002.jpg" alt="" width="430px" height="330px">
             <h2 style="font-family: Tiemann,serif;line-height:35px;font-weight:lighter">UP TO 85% OFF THE DENIM SHOP FOR HIM & HER</h2>
             <h4 style="margin-top:10px;margin-bottom:10px;font-family:sans-serif;font-weight:lighter">From Hudson Jeans, Joe's Jeans, J Brand & More</h4>
             <a href="#"><button id="btn">SHOP DENIM</button></a>
         </div>
         <div id="jumpsuits">
-            <img src="https://images.herzindagi.info/image/2022/May/jumpsuits-mistakes-not-to-make.jpg" alt="" width="430px" height="330px">
+            <img src="https://img.freepik.com/premium-photo/visit-milan-young-fashion-woman-walking-city-street-brera-neighborhood-milan-italy_63239-103.jpg" alt="" width="430px" height="330px">
             <h2 style="font-family: Tiemann,serif;font-weight:lighter">UP TO 90% OFF TRENDING JUMPSUITS & ROMPERS</h2>
             <h4 style="margin-top:10px;margin-bottom:10px;font-family:sans-serif;font-weight:lighter">Must-Haves From Halston, BCBGMAXAZRIA, Iro & More</h4>
             <a href="#"><button id="btn">SHOP JUMPSUITS</button></a>
         </div>
         <div id="acces">
-            <img src="https://i0.wp.com/www.usmagazine.com/wp-content/uploads/2021/04/Woman-Wearing-Statement-Necklace-Stock-Photo.jpg?crop=0px%2C0px%2C2000px%2C1131px&resize=1600%2C900&ssl=1&quality=86&strip=all" alt="" width="430px" height="330px">
+            <img src="https://us.123rf.com/450wm/inarik/inarik2201/inarik220100012/180649300-elegant-woman-face-portrait-hidden-by-black-hat-beauty-fashion-model-with-red-lips-and-eye-make-up.jpg?ver=6" alt="" width="430px" height="330px">
             <h2 style="font-family: Tiemann,serif;width:90%;font-weight:lighter">UP TO 90% OFF WOMEN'S MUST-HAVE ACCESSORIES</h2>
             <h4 style="margin-top:10px;margin-bottom:10px;font-family:sans-serif;font-weight:lighter">Shop Wallets, Belts, Hats, Sunglasses & More</h4>
             <a href="#"><button id="btn">SHOP WOMEN'S ACCESSORIES</button></a>
@@ -102,7 +99,7 @@ function footer(){
 </footer>`
 }
 
-export {navbar,footer}
+export { navbar, footer }
 
 
 

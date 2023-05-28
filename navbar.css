@@ -16,13 +16,14 @@ header{
 } 
 #nav1{
     display: flex;
-    margin-left: 50px;
+    margin-left: 10px;
+    justify-content: space-between;
     
 }
 #nav1>a{
     margin-top: 20px;
-    margin-bottom: 5px;
-    margin-left: 550px;
+    margin-bottom: 30px;
+    margin-left: 50px;
     width: 30%;
     height: 35px;
     cursor: pointer;
@@ -31,7 +32,7 @@ header{
 #search{
     display: flex;
    
-    margin-left: 100px;
+    margin-left: 800px;
 }
 #search a{
  text-decoration: none;
@@ -68,7 +69,13 @@ header{
 #list{
     width: 100%;
     height: auto;
+    background-color: rgb(243, 186, 238);
+    padding: 20px 0px;
+    margin-bottom: -30px;
     
+}
+#clear a{
+    text-decoration: none;
 }
 #user{
     width: 30px;

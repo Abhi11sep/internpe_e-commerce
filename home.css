@@ -29,13 +29,13 @@ hr{
 }
 #main{
     width: 100%;
-    height: 600px;
+    height: 500px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
     
 }
 #slider{
     width: 100%;
-    height: 600px;
+    height: 500px;
 }
 #left, #right{
     cursor: pointer;
@@ -43,7 +43,7 @@ hr{
     top: 50%;
     width: auto;
     padding: 16px;
-    margin-top: -22px;
+    margin-top: -102px;
     color: white;
     font-weight: bold;
     font-size: 30px;
@@ -132,7 +132,7 @@ h1{
     text-transform: uppercase;
 }
 #cat{
-    width: 95%;
+    width: 90%;
     margin: auto;
     display: grid;
     gap:20px;
@@ -141,6 +141,11 @@ h1{
 #cat div{
     text-align: center;
     margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+#cat div:hover{
+    box-shadow: rgba(243, 10, 173, 0.1) 0px 10px 15px -3px, rgba(247, 6, 222, 0.05) 0px 4px 6px -2px;
 }
 #cat img, #new_arrivals img, #trending_now img{
 
@@ -156,14 +161,17 @@ h1{
     letter-spacing: .2em;
 }
 #new_arrivals,#trending_now{
-    width: 100%;
+    width: 90%;
     margin: auto;
     display: grid;
     gap:20px;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr);
 }
 #new_arrivals div, #trending_now div{
     text-align: center;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 50px;
+    border-radius: 15px;
 
 }
 #new_arrivals div:hover .quick_view, #trending_now div:hover .quick_view{
